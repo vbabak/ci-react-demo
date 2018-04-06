@@ -7,6 +7,8 @@ branches:
   - master
 deploy:
   provider: heroku
-  app: ci-react-demo
+  app:
+    master: ci-react-demo
+    develop: ci-react-demo-staging
   api_key:
     secure: NzHsWoHCx8gxoCOFDgKl6pKgBrjh9KzROAa/sGWa9T5+r02ec4ShwsKnWKyatzvXnoSGlPRD0U883elKrTYkUi7AsJJ5/KL+/PRJOBS0rHKu6u9r6K9vYc10FbtVHpcRq8UBhYw9zcHrYDydid6H8+v6zrY97a1BJ+TxOXU2TlH96rXNXguNN3AUmI2oqpfs23W6y0yhqcBZGnIDuuCUlAZngdqZdd5AZ+2TFGOgMrViRUVib7WWs86XS3iYGwgrdTU1D23IU1XgoziN3CTf65Ujf+bk+wpiaPqgPe53IH0y4L1U3PtUgqktZYGnSIAE2pZWdanIB2VQenayccaMNGPZ8lkr9gpmII5vxWGNcekZS8HwY6VYyCjQu4A/znS2Cvs6PKM3GY/msY5tQywyf8QHdsMSZMMo61+93ugDFKuv15z0au3p6Vdq6JpGTRLrjQHyjI62HXwqDyHeAbfNMgloi+BLoQpgAyk6rXNVB9The+ExABjHOLfRFLnFqmKhmzNIKVqCtzED1gU/BYdbzWtAFCwSrWw1udeuRKZuw4pYiEF6rYnj8sDa94hPu0Op8McjN27cCffxzuHz5vrzg8LJxZmqIgilzyvaIWtNo0YGViv87VXsc8xgNg9YRUgF7Ob6CoiwDfa6vZsF292DWfgWgcdLyhOCrKkwruN80bk=
